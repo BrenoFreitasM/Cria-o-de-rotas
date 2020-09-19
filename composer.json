@@ -1,0 +1,21 @@
+{
+    "name": "breno/task",
+    "description": "Projeto feito durante aula da discliplinna de programacao web",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Breno Mendes",
+            "email": "brenofreitasmendes@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {},
+    "autoload" : 
+    {
+        "psr-4" : 
+        {
+            "App\\" : "App/",
+            "UNIS\\" : "vendor/UNIS"
+        }
+    }
+}
